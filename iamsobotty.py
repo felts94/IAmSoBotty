@@ -15,5 +15,5 @@ f=filename.readlines()
 filename.close()
 
 for line in f:
-    api.update_status(line)
+    api.update_status(line + ", your face!")
     time.sleep(900)
